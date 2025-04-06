@@ -1,0 +1,10 @@
+@HistoryV1Extension_HostAddress = http://192.168.0.101:5194
+
+POST {{HistoryV1Extension_HostAddress}}/v1/history/get_transaction
+content-type: application/json
+{
+    "id": "64bed456866f89ae49a3d487fe120af947df35012f52b2fe96d0711233b70033",
+    "block_num_hint": 0
+}
+
+###
